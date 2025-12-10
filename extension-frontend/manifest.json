@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Project Omni",
+  "version": "0.1.0",
+  "description": "Your proactive AI partner for the web.",
+
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "storage",
+    "identity"
+  ],
+
+  "oauth2": {
+    "client_id": "192671746547-i0gb4075ilmk2f0qr25lac14a1aqol7s.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar"
+    ]
+  },
+
+  "action": {
+    "default_title": "Open Omni Sidebar"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.ts"]
+    }
+  ],
+
+  "side_panel": {
+    "default_path": "index.html"
+  },
+
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  }
+}

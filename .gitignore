@@ -1,0 +1,52 @@
+# Ignore node_modules (JavaScript/TypeScript projects)
+node_modules/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Ignore environment files / secrets
+*.env
+.env.*
+
+# Ignore build outputs
+dist/
+build/
+out/
+
+# Ignore OS-specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor settings
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+
+# Backup and temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig

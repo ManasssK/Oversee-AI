@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/auth.tsx","./src/chatview.tsx","./src/composeview.tsx","./src/eventsview.tsx","./src/settingsview.tsx","./src/sidebar.tsx","./src/background.ts","./src/content.ts","./src/main.tsx","./src/supabaseclient.ts","./src/vite-env.d.ts"],"version":"5.8.3"}
